@@ -1,0 +1,211 @@
+
+/*we will rarely use this*/
+.body{
+	font: 16px Avenir, Source Sans Pro, Helvetica, sans-serif;
+	line-height:38px;
+	color: #404040;
+
+}
+
+
+/*for the blurbs of text on the home page*/
+.body-small{
+	font: 1.5rem Avenir, Source Sans Pro, Helvetica, sans-serif;
+	font-weight: 400;
+	line-height: 2.375rem;
+	color: #404040;
+	background-color: #ffffff;
+	padding: 60px;
+	margin: 20px;
+	border-radius: 20px;
+
+}
+
+/*for the main paragraphs on the other pages*/
+.body-normal{
+	font: 2rem Avenir, Source Sans Pro, Helvetica, sans-serif;
+	font-weight: 400;
+	line-height:2.5rem;
+	color: #404040;
+
+}
+
+/*puts padding around most blocks of text*/
+.body-container{
+	width: 60%;
+	margin: auto;
+}
+
+/*biggest heading on the page*/
+.h1{
+	font: 4rem Avenir, Source Sans Pro, Helvetica, sans-serif;
+	font-weight: 800;
+	color:#272727;
+	line-height: 3.125rem;
+	padding-top: 90px
+	padding-bottom: 60px;
+	text-align: center;
+}
+
+
+/*second largest heading on the page*/
+.h2{
+	font: 3em Avenir, Source Sans Pro, Helvetica, sans-serif;
+	font-weight: 900;
+	color:#272727;
+	line-height: 3.125rem;
+}
+
+
+/*navbar */
+.navbar {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: fixed; 
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 9999;
+  list-style: none;
+  text-align: center;
+  font: 0.875rem Avenir, Source Sans Pro, Helvetica, sans-serif;
+  font-weight: 800; 
+ }
+
+
+/*navbar active*/
+.navbar a {
+  color: #272727;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: underline;
+  }
+
+
+/*navbar hover*/
+.navbar a:hover {
+	background-color: #EFEFEF;
+	padding: 8px 12px;
+	color: #272727;
+	border-radius: 5px;
+}
+
+/*example of what a big header image is like - change the image source to preferred image*/
+.big-header-image{
+	width:100%;
+	height: 1080px;
+	position:relative;
+	background-image: url('images/small-abhishek-sanwa.jpg');
+	background-repeat: no-repeat;
+	margin-top: 50px; 
+}
+
+
+/*example of what a small header image is like - change the image source to preferred image*/
+.small-header-image{
+	width:100%;
+	height: 600px;
+	position:relative;
+	background-image: url('home/homeheader1.jpg');
+	background-repeat: no-repeat;
+}
+
+
+
+/* for images that fall on the left */
+
+.column {
+  float: left;
+  padding: 10px;
+  background-color:#F7F7F7;
+}
+
+.left {
+  width: 60%;
+  box-sizing: border-box;
+}
+
+.right {
+  width: 40%;
+  box-sizing: border-box;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+
+
+/* for images that fall on the right */
+.column2{
+	  float: left;
+  padding: 10px;
+  background-color:#F7F7F7;
+
+}
+
+.left2 {
+  width: 40%;
+  box-sizing: border-box;
+}
+
+.right2 {
+  width: 60%;
+  box-sizing: border-box;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+
+  }
+
+@media screen and (max-width: 600px) {
+  .column2 {
+    width: 100%;
+
+  }
+
+
+
+
+
+.greybg{
+	width: 100%;
+	height: 1080px;
+	background-color:#F7F7F7;
+}
+
+.responsive {
+  width: 100%;
+	height:auto;
+}
+
+
+/* buttons and hover */
+
+.button{
+	background-color: #869069;
+	color: #ffffff; 
+	padding: 5px 25px;
+	font: 14px Lato, Avenir, Source Sans Pro, Helvetica, sans-serif;
+	border-radius: 3px;
+
+}
+
+.button:hover {
+	background-color: #5f674b;
+
+
+
+
+
+
+}
+
+
