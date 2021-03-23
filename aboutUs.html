@@ -4,6 +4,11 @@
 	<title> About Us</title>
 	<!-- External Stylesheet --> 
 	<link rel="stylesheet" type="text/css" href="aboutstyle.css">
+	<script
+	  src="https://code.jquery.com/jquery-3.6.0.js"
+	  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+	  crossorigin="anonymous">
+	</script>
 
 	<style>
 		h3 {
@@ -32,6 +37,24 @@
 	</div>
 </nav>
 <div class = "big-header-image"></div>
+	
+<script>
+	$(document).ready(function () {
+      setImageOne();
+    });
+
+    function setImageOne() {
+      $('.big-header-image').fadeIn(1000).html('<img src = "about/aboutheader.jpg" height="700px" width = "100%"/>').delay(3000).fadeOut(1000, function () { setImageTwo(); });
+    }
+
+    function setImageTwo() {
+      $('.big-header-image').fadeIn(1000).html('<img src = "about/aboutheader2.jpg" height="700px" width = "100%"/>').delay(3000).fadeOut(1000, function () { setImageThree(); });
+    }
+    function setImageThree() {
+      $('.big-header-image').fadeIn(1000).html('<img src = "about/aboutheader3.jpg" height="700px" width = "100%"/>').delay(3000).fadeOut(1000, function () { setImageOne(); });
+    }
+
+</script>
 
 
 
