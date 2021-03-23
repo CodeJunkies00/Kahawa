@@ -357,6 +357,12 @@ a:hover{
   clear: both;
 
 }
+/* cloumn responsive*/	      
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+
+  }
 	      
  .responsive {
   width: 100%;
