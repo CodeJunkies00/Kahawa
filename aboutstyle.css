@@ -317,10 +317,29 @@ a:hover{
 	background-repeat: no-repeat;
 }
 
+
 /* header responsive*/
       @media screen and (max-width: 600px) {
 .big-header-image{
 	background-image: url('about/aboutheadersmall.jpg');
+ height: 400px;
+
+  }
+	      
+/* footer image*/
+.footer-image{
+	width:100%;
+	height: 1080px;
+	position:relative;
+	background-image: url('about/aboutimage4.jpg');
+	 background-position: center;
+	background-repeat: no-repeat;
+}
+
+/* footer responsive*/
+      @media screen and (max-width: 600px) {
+.footer-image{
+	background-image: url('about/aboutimage4small.jpg');
  height: 400px;
 
   }
