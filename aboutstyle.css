@@ -340,13 +340,16 @@ a:hover{
 }
 
 .left img{
-	width: 100%
+	width: 80%
 
 }
 
 .right {
-  width: 50%;
+  width: 0%;
   box-sizing: border-box;
+}
+.right img {
+  width: 80%;
 }
 
 
