@@ -4,6 +4,45 @@
 	padding: 5%;
 }
 
+/*footer*/
+.footer {
+  	      color:#ffffff;
+	      background-color:#53613D;
+	      font: 1.5rem Lato, Avenir, Source Sans Pro, Helvetica, sans-serif;
+	      font-weight: 900;
+	      line-height: 2.375rem;
+	      letter-spacing: 0.75px
+	      margin-top: 30px;
+	      float: right;
+		  width: 100%;
+		  border: solid 20px #53613D;
+		  padding: 20px 10px;
+		  box-sizing: border-box;
+		  bottom:0;
+		  text-align: right;
+		  
+}
+.footer a{
+	text-decoration: none;
+
+}
+
+a:link{
+	color:#ffffff;
+}
+
+a:visited{
+	color:#ffffff;
+}
+
+a:hover{
+	color:#ffffff;
+	text-decoration: underline;
+}
+
+
+/* footer ends here */
+
 #logo{
 	display: flex;
 	padding: 10px 0px 10px 20px;
