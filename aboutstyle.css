@@ -302,7 +302,7 @@ h1 {
       @media screen and (max-width: 600px) {
 .big-header-image{
 	background-image: url('about/aboutheadersmall.jpg');
- height: 300px;
+ height: 400px;
 
   }
 
