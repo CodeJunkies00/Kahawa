@@ -38,41 +38,6 @@
 </nav>
 <div class = "big-header-image"></div>
 	
-<script>
-	$(document).ready(function () {
-      setImageOne();
-    });
-	if($(window).width() >= 800){
-  // do your stuff
-
-
-    function setImageOne() {
-      $('.big-header-image').fadeIn(1000).html('<img src = "about/aboutheader.jpg" height="1080px" width = "100%"/>').delay(3000).fadeOut(1000, function () { setImageTwo(); });
-    }
-
-    function setImageTwo() {
-      $('.big-header-image').fadeIn(1000).html('<img src = "about/aboutheader2.jpg" height="1080px" width = "100%"/>').delay(3000).fadeOut(1000, function () { setImageThree(); });
-    }
-    function setImageThree() {
-      $('.big-header-image').fadeIn(1000).html('<img src = "about/aboutheader3.jpg" height="1080px" width = "100%"/>').delay(3000).fadeOut(1000, function () { setImageOne(); });
-    }
-		}
-	else {
-		    function setImageOne() {
-      $('.big-header-image').fadeIn(1000).html('<img src = "about/aboutheader.jpg" height="400px" width = "100%"/>').delay(3000).fadeOut(1000, function () { setImageTwo(); });
-    }
-
-    function setImageTwo() {
-      $('.big-header-image').fadeIn(1000).html('<img src = "about/aboutheader2.jpg" height="400px" width = "100%"/>').delay(3000).fadeOut(1000, function () { setImageThree(); });
-    }
-    function setImageThree() {
-      $('.big-header-image').fadeIn(1000).html('<img src = "about/aboutheader3.jpg" height="400px" width = "100%"/>').delay(3000).fadeOut(1000, function () { setImageOne(); });
-    }
-	}
-		
-
-</script>
-
 
 
 <div class="body-container">
@@ -130,6 +95,43 @@
 
 
 	</div>
+	
+	<script>
+	$(document).ready(function () {
+      setImageOne();
+    });
+	if($(window).width() >= 800){
+  // do your stuff
+
+
+    function setImageOne() {
+      $('.big-header-image').fadeIn(1000).html('<img src = "about/aboutheader.jpg" height="1080px" width = "100%"/>').delay(3000).fadeOut(1000, function () { setImageTwo(); });
+    }
+
+    function setImageTwo() {
+      $('.big-header-image').fadeIn(1000).html('<img src = "about/aboutheader2.jpg" height="1080px" width = "100%"/>').delay(3000).fadeOut(1000, function () { setImageThree(); });
+    }
+    function setImageThree() {
+      $('.big-header-image').fadeIn(1000).html('<img src = "about/aboutheader3.jpg" height="1080px" width = "100%"/>').delay(3000).fadeOut(1000, function () { setImageOne(); });
+    }
+		}
+	else {
+		    function setImageOne() {
+      $('.big-header-image').fadeIn(1000).html('<img src = "about/aboutheader.jpg" height="400px" width = "100%"/>').delay(3000).fadeOut(1000, function () { setImageTwo(); });
+    }
+
+    function setImageTwo() {
+      $('.big-header-image').fadeIn(1000).html('<img src = "about/aboutheader2.jpg" height="400px" width = "100%"/>').delay(3000).fadeOut(1000, function () { setImageThree(); });
+    }
+    function setImageThree() {
+      $('.big-header-image').fadeIn(1000).html('<img src = "about/aboutheader3.jpg" height="400px" width = "100%"/>').delay(3000).fadeOut(1000, function () { setImageOne(); });
+    }
+	}
+		
+
+</script>
+
+
 
 </body>
 </html>
