@@ -1,3 +1,9 @@
+.body{
+	color: #404040;
+	background-color: #ffffff;
+	padding: 5%;
+}
+
 #logo{
 	display: flex;
 	padding: 10px 0px 10px 20px;
@@ -58,9 +64,37 @@ h1 {
 	padding-bottom: 60%;
 }
 
-/* for the divs that fall on the left */
-.column {
-  float: left;
-  padding: 10px;
-  background-color:#F7F7F7;
+/*
+.box-1 {
+    width:100%;
+    height:auto;
 }
+*/
+/* for the image that fall on the left */
+/*
+.left-1 {
+	float:left; 
+  	background-color:#F7F7F7;
+}
+*/
+/*
+.right-1 {
+    float:left;
+}
+
+*/
+
+/*
+.right-1 h2 {
+
+    font-family: Avenir;
+	font-style: normal;
+	font-weight: 800;
+
+	left: 67.14%;
+	right: 9.38%;
+	top: 11.57%;
+	bottom: 83.8%;
+}
+
+*/
