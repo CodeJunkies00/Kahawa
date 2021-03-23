@@ -209,5 +209,21 @@
 
 }
 
+/* buttons responsive*/	
+	  @media screen and (max-width: 600px) {
+  .button {
+    width: 80%;
+
+  }
+		  
+/* header image responsive*/	
+	  @media screen and (max-width: 600px) {
+.small-header-image{
+    width: 100%;
+	height:auto;
+
+  }
+		  
+
 
 
