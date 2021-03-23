@@ -298,6 +298,14 @@ h1 {
 	background-repeat: no-repeat;
 }
 
+/* header responsive*/
+      @media screen and (max-width: 600px) {
+.big-header-image{
+	background-image: url('home/aboutheadersmall.jpg');
+ height: 300px;
+
+  }
+
 
 
 
