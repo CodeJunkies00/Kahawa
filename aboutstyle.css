@@ -203,6 +203,7 @@ a:hover{
 
 .left {
   width: 50%;
+  display: inline-block;
   box-sizing: border-box;
 }
 
@@ -215,6 +216,7 @@ a:hover{
  /* image on right*/
 .right {
   width: 0%;
+ display: inline-block;
   box-sizing: border-box;
 }
 .right img {
