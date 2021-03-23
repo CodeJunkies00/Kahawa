@@ -288,6 +288,16 @@ h1 {
 }
 
 
+/* header image*/
+.big-header-image{
+	width:100%;
+	height: 1080x;
+	position:relative;
+	background-image: url('about/aboutheader.jpg');
+	 background-position: center;
+	background-repeat: no-repeat;
+}
+
 
 
 
