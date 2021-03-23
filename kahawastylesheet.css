@@ -1,5 +1,5 @@
 
-/*we will rarely use this*/
+/*body*/
 .body{
 	font: 16px Avenir, Source Sans Pro, Helvetica, sans-serif;
 	line-height:38px;
@@ -8,6 +8,45 @@
 
 
 }
+
+/*footer*/
+.footer {
+  	      color:#ffffff;
+	      background-color:#53613D;
+	      font: 1.5rem Lato, Avenir, Source Sans Pro, Helvetica, sans-serif;
+	      font-weight: 900;
+	      line-height: 2.375rem;
+	      letter-spacing: 0.75px
+	      margin-top: 30px;
+	      float: right;
+		  width: 100%;
+		  border: solid 20px #53613D;
+		  padding: 20px 10px;
+		  box-sizing: border-box;
+		  bottom:0;
+		  text-align: right;
+		  
+}
+.footer a{
+	text-decoration: none;
+
+}
+
+a:link{
+	color:#ffffff;
+}
+
+a:visited{
+	color:#ffffff;
+}
+
+a:hover{
+	color:#ffffff;
+	text-decoration: underline;
+}
+
+
+/* footer ends here */
 
 .html, .body{
   margin:0 !important;
@@ -65,6 +104,8 @@
 	color:#272727;
 	line-height: 3.125rem;
 	text-align: left;
+	margin-left:20px;
+	margin-right:20px;
 }
 
 
@@ -117,8 +158,37 @@
 	height: 600px;
 	position:relative;
 	background-image: url('home/homeheader1.jpg');
+	 background-position: center;
 	background-repeat: no-repeat;
 }
+
+.small-header-image img{
+	height: auto;
+}
+
+/* for lower margin of divs */
+.lower-margin{
+	margin-bottom: 21rem;
+}
+
+.mid-margin{
+	margin-bottom: 6rem;
+}
+
+/* lower margin responsiveness */
+
+/* @media screen and (max-width: 600px) {
+  .lower-margin {
+    margin-bottom: 3rem;
+
+  }
+
+  @media screen and (max-width: 600px) {
+  .mid-margin {
+    margin-bottom: 6rem;
+
+  }
+
 
 
 
@@ -137,17 +207,22 @@
   border-radius: 20px 0px 20px 20px
 }
 
+.left img{
+	width: 100%
+
+}
+
 .right {
   width: 40%;
   box-sizing: border-box;
 }
+
 
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
-  background-color:#F7F7F7;
 
 }
 
@@ -171,8 +246,14 @@
   box-sizing: border-box;
 }
 
+.right2 img{
+	width: 100%;
+}
 
-/*responsiveness for elements */
+
+/*responsiveness for divs */
+
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -184,6 +265,7 @@
     width: 100%;
 
   }
+
 
 
 
@@ -201,6 +283,7 @@
 	padding: 5px 25px;
 	font: 0.875rem Lato, Avenir, Source Sans Pro, Helvetica, sans-serif;
 	border-radius: 3px;
+	border: none;
 
 }
 
@@ -212,14 +295,46 @@
   @media screen and (max-width: 600px) {
   .button {
   	font: 1rem;
-    width: 80%;
-    display: block;
+    text-align: center;
+    display: inline-block;
+    height: 2.5rem;
 
   }
 
-	  
 
-		  
+
+    @media screen and (max-width: 600px) {
+.body-small{
+  	font: 1rem Avenir, Source Sans Pro, Helvetica, sans-serif;
+	font-weight: 400;
+	line-height: 1.125rem;
+	padding: 2rem;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	display: inline-block;
+
+  }
+
+      @media screen and (max-width: 600px) {
+.small-header-image{
+	background-image: url('home/homeheadersmall.jpg');
+ height: 300px;
+
+  }
+
+
+@media screen and (max-width: 600px) {
+  .h2 {
+    margin-left: 0px;
+    margin-right: 0px;
+
+  }
+
+
+
+
+
 
 
 
