@@ -141,15 +141,6 @@ a:hover{
 	border-radius: 5px;
 }
 
-#navbar ul{
-	float: right;
-	list-style: none;
-}
-
-
-#navbar li{
-	display:inline;
-}
 /*example of what a big header image is like - change the image source to preferred image*/
 .big-header-image{
 	width:100%;
