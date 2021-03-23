@@ -1,0 +1,66 @@
+#logo{
+	display: flex;
+	padding: 10px 0px 10px 20px;
+	position: absolute;
+	width: 7%;
+
+}
+
+/* navbar*/ 
+#navbar{
+	background-color:#ffffff;
+	overflow: hidden;
+	position: fixed; 
+
+	float: right;
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
+	z-index: 9999;
+	list-style: none;
+	text-align: center;
+	font: 0.875rem Avenir, Source Sans Pro, Helvetica, sans-serif;
+	font-weight: 800; 
+
+}
+
+#navbar ul{
+	float: right;
+	list-style: none;
+}
+
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color: #272727;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/*navbar hover*/
+.navbar a:hover {
+	background-color: #EFEFEF;
+	padding: 8px 12px;
+	color: #272727;
+	border-radius: 5px;
+}
+
+h1 {
+	font: 3rem Avenir, Source Sans Pro, Helvetica, sans-serif;
+	font-weight: 800;
+	line-height: 40%;
+	color:#272727;
+	text-align: center;
+	padding-top: 10%
+	padding-bottom: 60%;
+}
+
+/* for the divs that fall on the left */
+.column {
+  float: left;
+  padding: 10px;
+  background-color:#F7F7F7;
+}
