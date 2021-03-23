@@ -203,30 +203,16 @@ a:hover{
   float: left;
   padding: 10px;
   background-color:#F7F7F7;
-}
-
-.left {
   width: 50%;
   display: inline-block;
   box-sizing: border-box;
-}
 
-.left img{
+.column img{
 	width: 600px;
 	height:600px;
 
 }
 	      
- /* image on right*/
-.right {
-  width: 0%;
- display: inline-block;
-  box-sizing: border-box;
-}
-.right img {
-  width: 600px;
-height: 600px;
-}
 
 
 /* Clear floats after the columns */
