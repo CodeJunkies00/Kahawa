@@ -1,0 +1,245 @@
+.body{
+	color: #404040;
+	background-color: #ffffff;
+	padding: 5%;
+}
+
+#logo{
+	display: flex;
+	padding: 10px 0px 10px 20px;
+	position: absolute;
+	width: 7%;
+
+}
+
+/* navbar*/ 
+#navbar{
+	background-color:#ffffff;
+	overflow: hidden;
+	position: fixed; 
+
+	float: right;
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
+	z-index: 9999;
+	list-style: none;
+	text-align: center;
+	font: 0.875rem Avenir, Source Sans Pro, Helvetica, sans-serif;
+	font-weight: 800; 
+
+}
+
+#navbar ul{
+	float: right;
+	list-style: none;
+}
+
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color: #272727;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/*navbar hover*/
+.navbar a:hover {
+	background-color: #EFEFEF;
+	padding: 8px 12px;
+	color: #272727;
+	border-radius: 5px;
+}
+
+h1 {
+	font: 3rem Avenir, Source Sans Pro, Helvetica, sans-serif;
+	font-weight: 800;
+	line-height: 40%;
+	color:#272727;
+	text-align: center;
+	padding-top: 10%
+	padding-bottom: 60%;
+}
+
+.box-1 {
+    display: flex;
+    background-color: #F7F7F7;
+}
+
+.box-1 .right-1 img {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	height: 300;	
+}
+
+/* for the image that fall on the left */
+.box-1 .left-1 {
+	float:left; 
+  	background-color:#F7F7F7;
+}
+
+.box-1 .right-1 {
+    float:left;
+    padding-left: 150px;
+    padding-right:0;
+    font-family: Avenir;
+	font-style: normal;
+}
+
+.box-1 .right-1 h2 {
+	padding-left: 30px;
+	padding-top: 60px;
+	margin: 0;
+	padding-right: 0;
+}
+.box-1 .right-1 .content {
+	padding-left: 30px;
+	width: 250px;
+	height: 200px;
+	background-color: #FFFFFF;
+}
+.box-1 .right-1 .content p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 25px;
+	
+}
+
+.box-1 .right-1 .button {
+	background-color: #718355;
+	color: #FFFFFF;
+}
+
+.box-2 {
+    display: flex;
+    background-color: #F7F7F7;
+}
+
+.box-2 .left-2 {
+	font-family: Avenir;
+	font-style: normal;
+	padding-left: 90px
+}
+
+.box-2 .left-2 .content-2 {
+	width: 250px;
+	height: 200px;
+	background-color: #FFFFFF;
+
+}
+.box-2 .left-2 h2 {
+	padding-left: 30px;
+	padding-left: 30px;
+	padding-top: 120px;
+	margin: 0;
+}
+
+.box-2 .left-2 .content-2 p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 25px;
+	padding-left: 20px;	
+}
+.box-2 .right-2 {
+
+	padding-right: 0px;
+}
+
+.box-2 .right-2 img {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	height: 200;
+	padding-right: 10px;
+	padding-left:185px;	
+}
+
+.box-2 .left-2 .button {
+	background-color: #718355;
+	color: #FFFFFF;
+}
+
+
+/* ABOUT US */
+
+.top-image-2 {
+	width: 100%
+}
+
+.block-1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #FFFFFF;
+}
+
+.block-1 h2 {
+	position: static;
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: 800;
+	
+	letter-spacing: 1px;
+	color: #272727;
+	padding-right: 30%;
+	padding-left:30%;
+}
+.block-1 p {
+	padding-right: 30%;
+	padding-left:30%;
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.founders {
+	display: flex;
+    background-color: #F7F7F7;
+}
+
+.founders .Yves {
+	padding-left: 100px;
+}
+
+.founders .Yves img {
+	width: 60%;
+}
+
+.founders .Yves h2 {
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: 800;
+}
+
+.founders .Yves p {
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.founders .Dominic {
+	padding-right: 100px;
+}
+.founders .Dominic img {
+	width: 60%;
+}
+
+.founders .Dominic h2 {
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: 800;
+}
+.founders .Dominic p {
+	font-family: Avenir;
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+
+
+
+
