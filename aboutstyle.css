@@ -301,6 +301,39 @@ a:hover{
  height: 400px;
 
   }
+	      
+	      
+	      
+.column {
+  float: left;
+  padding: 10px;
+  background-color:#F7F7F7;
+}
+
+.left {
+  width: 60%;
+  box-sizing: border-box;
+  border-radius: 20px 0px 20px 20px
+}
+
+.left img{
+	width: 100%
+
+}
+
+.right {
+  width: 40%;
+  box-sizing: border-box;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
 
 
 
