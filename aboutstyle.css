@@ -357,6 +357,11 @@ a:hover{
   clear: both;
 
 }
+	      
+ .responsive {
+  width: 100%;
+	height:auto;
+}
 
 
 
