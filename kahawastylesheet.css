@@ -209,13 +209,15 @@
 
 }
 
-/* buttons responsive*/	
-	  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 600px) {
   .button {
+  	font: 1rem;
     width: 80%;
+    display: block;
 
   }
-		  
+
+	  
 
 		  
 
