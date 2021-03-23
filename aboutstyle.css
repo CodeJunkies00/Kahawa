@@ -301,7 +301,7 @@ h1 {
 /* header responsive*/
       @media screen and (max-width: 600px) {
 .big-header-image{
-	background-image: url('home/aboutheadersmall.jpg');
+	background-image: url('about/aboutheadersmall.jpg');
  height: 300px;
 
   }
