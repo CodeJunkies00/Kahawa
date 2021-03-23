@@ -179,7 +179,7 @@ a:hover{
 .footer-image{
 	width:100%;
 	height: 1080px;
-	position:relative;
+	position:static;
 	background-image: url('about/aboutimage4.jpg');
 	 background-position: center;
 	background-repeat: no-repeat;
