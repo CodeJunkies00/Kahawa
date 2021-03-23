@@ -1,4 +1,7 @@
 
+*{
+	box-sizing: border-box;
+}
 /*we will rarely use this*/
 .body{
 	font: 16px Avenir, Source Sans Pro, Helvetica, sans-serif;
@@ -121,12 +124,10 @@
 
 .left {
   width: 60%;
-  box-sizing: border-box;
 }
 
 .right {
   width: 40%;
-  box-sizing: border-box;
 }
 
 /* Clear floats after the columns */
@@ -149,12 +150,10 @@
 
 .left2 {
   width: 40%;
-  box-sizing: border-box;
 }
 
 .right2 {
   width: 60%;
-  box-sizing: border-box;
 }
 
 
