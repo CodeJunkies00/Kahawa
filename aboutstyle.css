@@ -203,13 +203,12 @@ a:hover{
   float: left;
   padding: 10px;
   background-color:#F7F7F7;
-  width: 50%;
+  width: 40%;
   box-sizing: border-box;
 }
 
 .column img{
-	width: 600px;
-	height:100%;
+	width: 100%;
 }
 	      
 
