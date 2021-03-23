@@ -43,6 +43,16 @@ a:hover{
 
 /* footer ends here */
 
+
+/*for the main paragraphs on the other pages*/
+.body-normal{
+	font: 2rem Avenir, Source Sans Pro, Helvetica, sans-serif;
+	font-weight: 400;
+	line-height:2.5rem;
+	color: #404040;
+
+}
+
 #logo{
 	display: flex;
 	padding: 10px 0px 10px 20px;
