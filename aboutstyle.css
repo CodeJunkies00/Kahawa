@@ -334,7 +334,7 @@ a:hover{
 }
 
 .left {
-  width: 60%;
+  width: 50%;
   box-sizing: border-box;
   border-radius: 20px 0px 20px 20px
 }
@@ -345,7 +345,7 @@ a:hover{
 }
 
 .right {
-  width: 40%;
+  width: 50%;
   box-sizing: border-box;
 }
 
