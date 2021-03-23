@@ -1,7 +1,10 @@
 .body{
+	font: 16px Avenir, Source Sans Pro, Helvetica, sans-serif;
+	line-height:38px;
 	color: #404040;
-	background-color: #ffffff;
-	padding: 5%;
+	  clear: both;
+
+
 }
 
 /*footer*/
