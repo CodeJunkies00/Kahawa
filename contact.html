@@ -98,7 +98,7 @@ toggleButton.addEventListener('click', () => {
     </div>
 
 
-<form class="my-form" action="index.html" method="post">
+<form class="my-form" id="myform" action="index.html" method="post">
       <div class= "form-group">
       	<label>email:</label>
       <input type="text" id="email2" name="email2" >
@@ -135,7 +135,7 @@ toggleButton.addEventListener('click', () => {
   event.preventDefault();
   }
 
-  const form = document.getElementById('my-form');
+  const form = document.getElementById('myform');
   const log = document.getElementById('response');
   form.addEventListener('submit', logSubmit);
 
