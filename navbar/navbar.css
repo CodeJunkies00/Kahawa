@@ -1,7 +1,11 @@
 * {
     font-family: avenir;
+
 }
 
+html {
+    background-color: #F7F7F7;
+}
 
 * {
     box-sizing: border-box;
@@ -14,8 +18,7 @@ body {
 
 .navbar {
     display: flex;
-    position: fixed;
-    z-index: 9999;
+    position: relative;
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
