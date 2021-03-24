@@ -3,6 +3,8 @@
 <head>
 	<title> Kahawa | Home</title>
 		<link rel="stylesheet" type="text/css" href="kahawastylesheet.css">
+	     	 <link rel="stylesheet" href="navbar.css">
+	     	 <script src="script.js" defer></script>
 		 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
@@ -23,21 +25,35 @@
 
 </head>
 <body>
-	<div style="background-color: #F7F7F7;">
-<!-- Navigation Options--> 
+<!-- navbar -->
+      <nav class="navbar">
+        <div class="brand-title"><img src="kahawa-logo.png"id="logo" onclick="window.location.href='index.html'"></div></div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Sustainability</a></li>
+          </ul>
+        </div>
+      </nav>
 
-	<div class="navbar">
-		<!-- Logo --> 
-		<img src="kahawa-logo.png" id="logo" onclick="window.location.href='index.html' style=min-width: "70px;" max-width="60px;" ">
-		
-		<div/class="body">
-			<a href="index.html">Home</a>
-			<a href="aboutUs.html">About Us</a>
-			<a href="serv.html">Our Services</a>
-			<a href="">Location</a>
-			<a href="">Sustainability</a>
-		</div>
-	</div>
+	<!-- toggle script in javascript -->
+<script>      
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})
+</script>
+	
 <!-- image -->
 <div class="small-header-image"></div>
 
