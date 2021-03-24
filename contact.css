@@ -42,6 +42,7 @@
 	background-image: url('contactimage2.jpg');
 	background-repeat: no-repeat;
 	margin-top: 50px; 
+	background-position: center;
 }
 
       @media screen and (max-width: 600px) {
