@@ -331,31 +331,6 @@ a:hover{
 
   }
 
-.my-form{
-	padding:20px;
-
-}
-
-
-.my-form.form-group{
-	padding-bottom: 20px
-}
-
-.my-form label{
-	display:block;
-	font: bold 18px Lato, Avenir, Source Sans Pro, Helvetica, sans-serif;
-;
-}
-
-.my-form input[type="text"], .my-form textarea{
-	padding: 10px;
-	width:100%;
-	margin: auto;
-
-}
-
-
-
 
 
 
