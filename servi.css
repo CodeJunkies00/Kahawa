@@ -82,53 +82,6 @@
 
         }
 
-/* navbar*/ 
-#navbar{
-	background-color:#ffffff;
-	overflow: hidden;
-	position: fixed; 
-
-	float: right;
-	top: 0; /* Position the navbar at the top of the page */
-	width: 100%; /* Full width */
-	z-index: 9999;
-	list-style: none;
-	text-align: center;
-	font: 0.875rem Avenir, Source Sans Pro, Helvetica, sans-serif;
-	font-size: 15px;
-	font-weight: 800; 
-
-}
-
-#navbar ul{
-	float: right;
-	list-style: none;
-}
-
-
-#navbar li{
-	display:inline;
-}
-
-#navbar a{
-	color: #272727;
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-}
-
-/*navbar hover*/
-.navbar a:hover {
-	background-color: #EFEFEF;
-	padding: 8px 12px;
-	color: #272727;
-	border-radius: 5px;
-}
-
-
-
-
-
 
 .footer {
   	      color:#ffffff;
