@@ -1,0 +1,149 @@
+#navbar{
+	background-color:#ffffff;
+	overflow: hidden;
+	position: fixed; 
+
+	float: right;
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
+	z-index: 9999;
+	list-style: none;
+	text-align: center;
+	font: 0.875rem Avenir, Source Sans Pro, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 800; 
+
+}
+
+#navbar ul{
+	float: right;
+	list-style: none;
+}
+
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color: #272727;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/*navbar hover*/
+.navbar a:hover {
+	background-color: #EFEFEF;
+	padding: 8px 12px;
+	color: #272727;
+	border-radius: 5px;
+}
+
+#logo{
+	       display: flex;
+	       padding: 10px 0px 10px 20px;
+	       position: absolute;
+	       max-width: 70px;
+	       min-width: 60px;
+
+        }
+
+
+
+
+    .top-pic{
+        	background-image:url(ordernowheader.jpg);
+        	background-size: cover;
+        	
+        
+        	height:80%;
+
+
+        }
+
+  .mid-cont{
+        	height:91%;
+        	margin-bottom: 2%;
+        	
+
+        }
+
+  .center-text{
+        	 font:  Avenir, Source Sans Pro, Helvetica, sans-serif;
+     
+            font-weight: 400;
+      
+            color: #404040;
+    }
+
+    .colu1{
+    	padding-left:5%;
+    }
+
+
+    .card-img-top{
+    	width:100%;
+    	border-radius:10px;
+    	box-shadow: 5px 10px #F8F8F8;
+    
+    }
+
+
+
+    .column1{
+    	padding-bottom:3%;
+    	
+    }
+
+
+    body{
+    	font: 16px Avenir, Source Sans Pro, Helvetica, sans-serif;
+        color: #404040;
+
+    }
+
+
+    h1{
+    	font-weight: 900;
+          color:#272727;
+          font: 2.5em Avenir, Source Sans Pro, Helvetica, sans-serif;
+
+    }
+
+
+     .footer {
+  	      color:#ffffff;
+	      background-color:#53613D;
+	      font: 1.5rem Lato, Avenir, Source Sans Pro, Helvetica, sans-serif;
+	      font-weight: 900;
+	      line-height: 2.375rem;
+	      letter-spacing: 0.75px
+	      margin-top: 30px;
+	      float: right;
+		  width: 100%;
+		  border: solid 20px #53613D;
+		  padding: 20px 10px;
+		  box-sizing: border-box;
+		  bottom:0;
+		  text-align: right;
+		  
+     }
+     .footer a{
+	text-decoration: none;
+
+    }
+
+   a:link{
+	color:#ffffff;
+    }
+
+
+    a:visited{
+	color:#ffffff;
+}
+
+   a:hover{
+	color:#ffffff;
+	text-decoration: underline;
+    }

@@ -1,0 +1,112 @@
+
+     
+
+        #navbar{
+	background-color:#ffffff;
+	overflow: hidden;
+	position: fixed; 
+
+	float: right;
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
+	z-index: 9999;
+	list-style: none;
+	text-align: center;
+	font: 0.875rem Avenir, Source Sans Pro, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 600; 
+
+}
+
+#navbar ul{
+	float: right;
+	list-style: none;
+}
+
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color: #272727;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+/*navbar hover*/
+.navbar a:hover {
+	background-color: #EFEFEF;
+	padding: 8px 12px;
+	color: #272727;
+	border-radius: 5px;
+}
+       
+
+
+        .top-pic{
+        	background-image:url(locationsheader.jpg);
+        	background-size: cover;
+        	
+        
+        	height:80%;
+
+
+        }
+
+
+
+        #logo{
+	       display: flex;
+	       padding: 10px 0px 10px 20px;
+	       position: absolute;
+	       max-width: 70px;
+	       min-width: 60px;
+
+        }
+
+
+        .card-img-top{
+    	width:100%;
+    	border-radius:15px;
+    	box-shadow: 5px 10px #F8F8F8;
+    
+    }
+
+        
+        .footer {
+  	      color:#ffffff;
+	      background-color:#53613D;
+	      font: 1.5rem Lato, Avenir, Source Sans Pro, Helvetica, sans-serif;
+	      font-weight: 900;
+	      line-height: 2.375rem;
+	      letter-spacing: 0.75px
+	      margin-top: 30px;
+	      float: right;
+		  width: 100%;
+		  border: solid 20px #53613D;
+		  padding: 20px 10px;
+		  box-sizing: border-box;
+		  bottom:0;
+		  text-align: right;
+		  
+     }
+     .footer a{
+	text-decoration: none;
+
+    }
+
+   a:link{
+	color:#ffffff;
+    }
+
+
+    a:visited{
+	color:#ffffff;
+}
+
+   a:hover{
+	color:#ffffff;
+	text-decoration: underline;
+    }
