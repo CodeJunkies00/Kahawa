@@ -14,15 +14,7 @@
 
 
 
-        #logo{
-	       display: flex;
-	       padding: 10px 0px 10px 20px;
-	       position: absolute;
-	       max-width: 70px;
-	       min-width: 60px;
-
-        }
-
+        
 
         .card-img-top{
     	width:100%;
