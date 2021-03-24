@@ -1,0 +1,37 @@
+	.button{
+	background-color: #869069;
+	color: #ffffff; 
+	padding: 10px 40px;
+	font: 0.875rem Lato, Avenir, Source Sans Pro, Helvetica, sans-serif;
+	border-radius: 3px;
+	border: none;
+	margin: 20px;
+	}
+
+	.button:hover {
+	background-color: #5f674b;
+}
+
+
+.my-form{
+	padding:20px;
+
+}
+
+
+.my-form.form-group{
+	padding-bottom: 20px
+}
+
+.my-form label{
+	display:block;
+	font: bold 18px Lato, Avenir, Source Sans Pro, Helvetica, sans-serif;
+;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding: 10px;
+	width:100%;
+	margin: auto;
+
+}
