@@ -18,11 +18,16 @@ body {
 
 .navbar {
     display: flex;
-    position: relative;
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
     color: #272727;
+overflow: hidden;
+position: fixed; 
+float: right;
+top: 0; /* Position the navbar at the top of the page */
+width: 100%; /* Full width */
+z-index: 9999;
 }
 
 .brand-title {
