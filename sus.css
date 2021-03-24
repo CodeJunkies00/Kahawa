@@ -1,0 +1,34 @@
+.small-header-image2{
+	width:100%;
+	height: 600px;
+	position:relative;
+	background-image: url('sustainability.jpg');
+	 background-position: center;
+	background-repeat: no-repeat;
+}
+
+.small-header-image2 img{
+	height: auto;
+}
+
+.big-header-image3{
+	width:100%;
+	height: 1080px;
+	position:relative;
+	background-image: url('sustainabilityimage2.jpg');
+	background-repeat: no-repeat;
+	margin-top: 50px; 
+}
+
+      @media screen and (max-width: 600px) {
+.small-header-image2{
+	background-image: url('sussmall.jpg');
+ height: 300px;
+
+  }      
+	      
+.big-header-image3{
+	background-image: url('susimage2small.jpg');
+ height: 300px;
+
+  }     
