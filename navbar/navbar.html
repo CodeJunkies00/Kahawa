@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="navbar.css">
+      <script src="script.js" defer></script>
+      <title>Responsive Navbar</title>
+    </head>
+    <body>
+      <nav class="navbar">
+        <div class="brand-title"><img src="kahawa-logo.png" style></div></div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Sustainability</a></li>
+          </ul>
+        </div>
+      </nav>
+
+<script>      
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})
+</script>
+    </body>
+</html>
