@@ -278,7 +278,7 @@ a:hover{
 .body-small{
   	font: 1rem Avenir, Source Sans Pro, Helvetica, sans-serif;
 	font-weight: 400;
-	line-height: 1.125rem;
+	line-height: 1.25rem;
 	padding: 2rem;
 	margin-left: 0px;
 	margin-right: 0px;
@@ -307,6 +307,12 @@ a:hover{
     margin: auto;
 
   }
+.body-normal {
+    font-size: 1.5rem;
+	font-weight: 2.375rem;
+	
+  }
+	
 
 
 
