@@ -1,4 +1,8 @@
 
+
+*{
+font-family: avenir;
+}
 /*body*/
 .body{
 	font: 16px Avenir, Source Sans Pro, Helvetica, sans-serif;
