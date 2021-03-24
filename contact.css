@@ -34,3 +34,19 @@
 	margin: auto;
 
 }
+
+.big-header-image4{
+	width:100%;
+	height: 1080px;
+	position:relative;
+	background-image: url('contactimage2.jpg');
+	background-repeat: no-repeat;
+	margin-top: 50px; 
+}
+
+      @media screen and (max-width: 600px) {
+big-header-image4{
+	background-image: url('contactimage2small.jpg');
+ height: 400px;
+
+  }  
