@@ -51,24 +51,32 @@ toggleButton.addEventListener('click', () => {
     <img src="contactheader.jpg" class="small-header-image" alt="header image">
   </header>
 
-  <div class="form">
-    <h1>Leave us a message</h1>
+    <div class="h1">Leave us a message</div>
 
     <p>
-    <h2>We'd love to hear from you!</h2>
+    <div class="h2">We'd love to hear from you!</div>
     </p>
 
-    <form class="my-form" action="index.html" method="post">
+    <div class="body-container"> 
+	    <form class="my-form" action="index.html" method="post">
       <div class= "form-group">
       	<label>First Name:</label>
-      <input type="text" id="fname" name="fname" value="First Name"><br><br>
-        </div>
-      <input type="text" id="lname" name="lname" value="Last Name"><br><br>
-      <input type="text" id="n.email" name="email" value="email"><br><br>
-      <input type="text" name="textbox" value="Give us a suggestion"><br><br>
-      <input type="submit" class="submit-btn" value="Submit" data-rel="back">
+      <input type="text" id="fname" name="fname" value="First Name">
+  	</div>
+            <div class= "form-group">
+      	<label>Last Name:</label><input type="text" id="lname" name="lname" value="Last Name"></div>
+		    
+       <div class= "form-group">
+	<label>email:</label><input type="text" id="n.email" name="email" value="email"></div>
+	
+	<div class= "form-group">
+		<label>Message:</label>
+		<textarea name="message"></textarea>
+		<input type="text" name="textbox" value="Give us a suggestion"></div>
+      <input class="button" type="submit" value="submit" name="">
 
     </form>
+</div>
 
     <h2 id="response"></h2>
   </div>
@@ -103,12 +111,12 @@ toggleButton.addEventListener('click', () => {
         <hr>
         <div> ©Kahawa </div>
         <div class="contact">
-          <ul style="list-style-type:none;">
-				<li>Terms of Service</li>
-				<li><a href="contact.html">Contact Us</a></li>
-				<li><a href="orderonline.html">Order Online</a></li>
-				<li>Jobs</li>
-	</ul>
+          <ul>
+            <li><a href="">Terms of Service</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Order Online</a></li>
+            <li><a href="">Jobs</a></li>
+          </ul>
         </div>
     </footer>
 
