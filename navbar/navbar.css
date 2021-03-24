@@ -63,6 +63,8 @@ z-index: 9999;
 
 .navbar-links li:hover {
     background-color: #EFEFEF;
+	border-radius: 5px;
+	border:none;
 }
 
 .toggle-button {
