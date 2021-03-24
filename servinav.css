@@ -19,7 +19,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: justify;
+    align-items: right;
     background-color: #ffffff;
     color: #272727;
 overflow: hidden;
