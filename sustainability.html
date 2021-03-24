@@ -4,24 +4,42 @@
 <head>
   <meta charset="utf-8">
   <title>Sustainability</title>
+    	<link rel="stylesheet" type="text/css" href="navbar/navbar.css">
   <link rel="stylesheet" href="kahawastylesheet.css">
+  	  <script src="script.js" defer></script>
 
 </head>
 
 <body>
 
-  <!-- Navigation Page-->
-  <div class="navbar">
-    <div /class="body">
-      <img src="kahawa-logo.png" align="left" class="kahawa-logo" alt="">
-      <a href="index.html">Home</a>
-      <a href="aboutUs.html">About Us</a>
-      <a href="servi.html">Our Services</a>
-      <a href="location.html">Location</a>
-      <a href="sustainability.html">Sustainability</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </div>
+<!-- navbar -->
+      <nav class="navbar">
+        <div class="brand-title"><img src="kahawa-logo.png"id="logo" onclick="window.location.href='index.html'"></div></div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="servi.html">Our Services</a></li>
+            <li><a href="location.html">Locations</a></li>
+            <li><a href="sustainability.html">Sustainability</a></li>
+          </ul>
+        </div>
+      </nav>
+
+	<!-- toggle script in javascript -->
+<script>      
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})
+</script>
 
   <header>
     <img src="sustainability.jpg" class="sus_image2" alt="sustainability">
