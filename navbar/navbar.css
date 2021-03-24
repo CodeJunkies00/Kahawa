@@ -1,7 +1,5 @@
 * {
     font-family: avenir;
-    font-weight: 800;
-    font-size:0.875rem;
 }
 
 html {
@@ -37,6 +35,8 @@ body {
 }
 
 .navbar-links {
+    font-weight: 800;
+    font-size:0.875rem;
     height: 100%;
 }
 
