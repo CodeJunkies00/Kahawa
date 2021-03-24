@@ -147,3 +147,11 @@
 	color:#ffffff;
 	text-decoration: underline;
     }
+
+.body-normal{
+	font: 2rem Avenir, Source Sans Pro, Helvetica, sans-serif;
+	font-weight: 400;
+	line-height:2.5rem;
+	color: #404040;
+
+}
