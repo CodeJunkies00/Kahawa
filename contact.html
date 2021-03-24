@@ -127,8 +127,17 @@ toggleButton.addEventListener('click', () => {
     </footer>
 
 
-  <script type="text/javascript">
+   <script type="text/javascript">
 
+  function logSubmit(event) {
+  log.textContent = `Thank you so much`;
+  location.reload();
+  event.preventDefault();
+  }
+
+  const form = document.getElementById('my-form');
+  const log = document.getElementById('response');
+  form.addEventListener('submit', logSubmit);
 
   </script>
 
