@@ -1,11 +1,13 @@
 <html>
+	<head>
      
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      	<title> Kahawa | Order Online </title>
-      
+	<link rel="stylesheet" type="text/css" href="navbar/navbar.css">
         <link rel="stylesheet" href="orderonline.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <style>
+	<script src="script.js" defer></script>
         	h1{
         
           font-weight: 900;
@@ -15,23 +17,39 @@
           
            }
         </style>
+	</head>
+	<body>
 
 
-        <nav id="navbar">
-	           <div class="navbar">
-	           	<img src="kahawa-logo.png" id="logo" onclick="window.location.href='index.html'">
-
-               
-		        <ul>
-
-		        <li><a href="index.html"> Home</a></li>
-			    <li><a href="aboutUs.html">About Us</a></li>
-			    <li><a href="servi.html">Our Services</a></li>
-			    <li><a href="location.html">Location</a></li>
-			    <li><a href="sustainability.html">Sustainability</a></li>
-		        </ul>
-	       </div>
+<!-- navbar -->
+      <nav class="navbar">
+        <div class="brand-title"><img src="kahawa-logo.png"id="logo" onclick="window.location.href='index.html'"></div></div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="servi.html">Our Services</a></li>
+            <li><a href="location.html">Locations</a></li>
+            <li><a href="sustainability.html">Sustainability</a></li>
+          </ul>
+        </div>
       </nav>
+
+	<!-- toggle script in javascript -->
+<script>      
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})
+</script>
+	
        <div class="col-xs-12 top-pic"></div>
 
        <div class="mid-cont container">
@@ -143,6 +161,6 @@
 
 
         
-
+	      </body>
 
 </html>
