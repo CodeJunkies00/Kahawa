@@ -56,7 +56,7 @@ toggleButton.addEventListener('click', () => {
     <div class="h1" style="text-align: left;">Leave us a message</div>
     <div class="h2">We'd love to hear from you!</div>
 
-	    <form class="my-form" id="myyform" action="index.html" method="post">
+	    <form class="my-form" id="myyform" name="meform" action="index.html" method="post" onsubmit="return validateForm()">
       <div class= "form-group">
       	<label>First Name:</label>
       <input type="text" id="fname" name="fname" >
@@ -98,14 +98,14 @@ toggleButton.addEventListener('click', () => {
     </div>
 
 
-<form class="my-form" id="myform" action="index.html" method="post">
+<form class="my-form" id="myform" name="form2" action="index.html" method="post" onsubmit="return validateEmail()">
       <div class= "form-group">
       	<label>email:</label>
-      <input type="text" id="email2" name="email2" >
+      <input type="text" id="email2" name="email-address" >
   	</div>
 	  </form>
         <br>
-	<input class="button" type="get more info" value="get more info" name="">
+	<input class="button" type="submit" value="get more info" name="btn">
 	  
 <div class="mid-margin"></div>
 <div class="mid-margin"></div>
@@ -145,6 +145,49 @@ toggleButton.addEventListener('click', () => {
   const form = document.getElementById("myyform");
   const log = document.getElementById("response");
   form.addEventListener("submit", logSubmit);
+
+function validateForm(){
+      var first = document.forms["meform"]["fname"].value;
+      var second = document.forms["meform"]["lname"].value;
+      var email = document.forms["meform"]["n.email"].value;
+      var atpos = email.indexOf("@");
+      var dotpos = email.lastIndexOf(".");
+
+      var arr = [first, second, email];
+
+      if(arr[0] == ""){
+        alert("Missing First Name.");
+      }else if(arr[1] == ""){
+        alert("Missing Last Name.");
+      }
+      else if (atpos < 1 || ( dotpos - atpos < 2 ))
+      {
+      alert("Please Enter A Correct Email.");
+      }
+
+      return false;
+  }
+
+  function validateEmail(){
+    var email = document.forms["form2"]["email-address"].value
+    var atpos = email.indexOf("@");
+    var dotpos = email.lastIndexOf(".");
+
+    if (atpos < 1 || ( dotpos - atpos < 2 ))
+    {
+        alert("Please Enter A Correct Email.");
+    }else{
+        location.reload();
+    }
+
+    return false;
+  }  
+	   
+	   
+	   
+	   
+	   
+	   
 
   </script>
 
