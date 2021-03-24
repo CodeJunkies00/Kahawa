@@ -1,7 +1,14 @@
 *{
 	font-family: avenir;
 }
+.body{
+	font: 16px Avenir, Source Sans Pro, Helvetica, sans-serif;
+	line-height:38px;
+	color: #404040;
+	  clear: both;
 
+
+}
         .top-pic{
         	background-image:url(locationsheader.jpg);
         	background-size: cover;
