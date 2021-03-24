@@ -112,39 +112,6 @@ a:hover{
 	margin-right:20px;
 }
 
-
-/*navbar */
-.navbar {
-  overflow: hidden;
-  background-color: #ffffff;
-  position: fixed; 
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  z-index: 9999;
-  list-style: none;
-  text-align: center;
-  font: 0.875rem Avenir, Source Sans Pro, Helvetica, sans-serif;
-  font-weight: 800; 
- }
-
-
-/*navbar active*/
-.navbar a {
-  color: #272727;
-  display: inline-block;
-  padding: 10px 20px;
-  text-decoration: underline;
-  }
-
-
-/*navbar hover*/
-.navbar a:hover {
-	background-color: #EFEFEF;
-	padding: 8px 12px;
-	color: #272727;
-	border-radius: 5px;
-}
-
 /*example of what a big header image is like - change the image source to preferred image*/
 .big-header-image{
 	width:100%;
