@@ -1,4 +1,9 @@
 
+html {
+    background-color: #F7F7F7;
+}
+
+
 /*body*/
 .body{
 	font: 16px Avenir, Source Sans Pro, Helvetica, sans-serif;
@@ -110,10 +115,6 @@ a:hover{
 
 
 /*navbar */
-html {
-    background-color: #F7F7F7;
-}
-
 * {
     box-sizing: border-box;
 }
