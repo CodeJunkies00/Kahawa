@@ -59,7 +59,7 @@ a:hover{
 
 .h1{
 	font: 4rem Avenir, Source Sans Pro, Helvetica, sans-serif;
-	font-weight:800;
+	font-weight:900;
 	color:#272727;
 	line-height:3.125rem;
 	padding-top:90px;
@@ -104,7 +104,7 @@ a:hover{
 /*second largest heading on the page*/
 .h2{
 	font: 3em Avenir, Source Sans Pro, Helvetica, sans-serif;
-	font-weight: 900;
+	font-weight: 800;
 	color:#272727;
 	line-height: 3.125rem;
 	text-align: left;
